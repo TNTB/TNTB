@@ -1,0 +1,10 @@
+# main links
+main :
+  - title: "La Troupe"
+    url  : /troupe/
+  - title: "Gallerie"
+    url  : /gallery/
+  - title: "Nos Spectacles"
+    url  : /spectacles/
+  - title: "Blog"
+    url  : /blog/  

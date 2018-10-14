@@ -1,85 +1,65 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/skel';
-@import 'font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600|Raleway:500,700,800');
 
-/*
-	Slate by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
+@charset "utf-8";
 
-	@include skel-breakpoints((
-		xlarge: '(max-width: 1680px)',
-		large: '(max-width: 1280px)',
-		medium: '(max-width: 980px)',
-		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)'
-	));
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+@import "elements-bootstrap"; 
 
-	@include skel-layout((
-		reset: 'full',
-		boxModel: 'border',
-		containers: 80em,
-		grid: ( gutters: 2em ),
-		breakpoints: (
-			large: (
-				containers: 65em,
-				grid: ( gutters: 1.5em )
-			),
-			medium: (
-				containers: 90%
-			),
-			small: (
-				small: (90%, true),
-				grid: ( gutters: 1.25em )
-			)
-		)
-	));
 
-	@mixin color($p) {
-		@include color-typography($p);
-		@include color-box($p);
-		@include color-button($p);
-		@include color-features($p);
-		@include color-form($p);
-		@include color-icon($p);
-		@include color-list($p);
-		@include color-post($p);
-		@include color-section($p);
-		@include color-table($p);
+
+// COLORS
+
+
+$Yellow-TNTB: #F0B480;
+
+.masthead {
+	border-bottom: none
+}
+.greedy-nav{
+	background: rgba(255, 255, 255, 0);
+	a{
+		color: $Yellow-TNTB; 
+	}
 	}
 
-// Base.
+#home{
+	margin-top: -7em;	
+}
 
-	@import 'base/page';
-	@import 'base/typography';
+.carousel-caption{
+	bottom: 40%;
+	font-size:1.5em;
+	color: darken($Yellow-TNTB, 10%);  
+}
 
-// Component.
 
-	@import 'components/box';
-	@import 'components/button';
-	@import 'components/features';
-	@import 'components/form';
-	@import 'components/icon';
-	@import 'components/image';
-	@import 'components/list';
-	@import 'components/post';
-	@import 'components/posts';
-	@import 'components/section';
-	@import 'components/spotlight';
-	@import 'components/table';
-	@import 'components/wrapper';
-	@import 'components/wrapper-2';
+.words{
+	width: 45%;
+	margin: 2em auto;
+	
+	img {
+    border-radius: 20px;
+	}
+}
 
-// Layout.
+.formulario{
+	width: 50%;
+	float: left;
+}
 
-	@import 'layout/header';
-	@import 'layout/banner';
-	@import 'layout/main';
-	@import 'layout/footer';
-	@import 'layout/navPanel';
+
+.grid__item{
+	.archive__item-teaser {
+	    @include breakpoint($small) {
+	      max-height: 200px;
+	    }
+
+	    @include breakpoint($medium) {
+	      max-height: 500px;
+	    }
+	  }
+ } 
+

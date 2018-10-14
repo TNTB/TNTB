@@ -1,88 +1,171 @@
 ---
-layout: default
-header_class: alt
+layout: splash
+title: "TNTB IMPRO - Yes"
+img-path: "/assets/img/1-home/"
 
-banner:
-- image: /assets/images/banner/banner-1.jpeg
-  title: Unis par la passion de l'Impro
-  url: "#"
-- image: /assets/images/banner/banner-2.jpeg
-  title: une voix, un sourire, un regard
-  url: "#"
-- image:  /assets/images/banner/banner-3.jpeg
-  title: c'est la victoire de la joie
-  url: "#"
+header:
+  image: "banner"
+  banner: 
+    id: home
+    time: 20000
+    images:
+      - url: /assets/img/1-home/banner/banner-1.jpg
+        caption: "Unis par la passion de l'Impro"
+      - url: /assets/img/1-home/banner/banner-2.jpg
+        caption: "Une voix, un sourire, un regard"
+      - url: /assets/img/1-home/banner/banner-3.jpg    
+        caption: "C'est la victoire de la joie"
 
-features:
-- icon: fa-pencil
-  title: Impro
-  excerpt: "Tout ce qui a commencé doit finir. L'agent Smith Waooou et quelle année!! Après des mois riches en émotions, nous voulions partager un peu de tout ça avec vous."
-- icon: fa-cloud
-  title: Partage
-  excerpt: "hola"
-- icon: fa-paper-plane
-  title: Convivial
-  excerpt: "Vivement les vacances!"
-
+words:
+  image: "banner"
+  banner: 
+    id: words
+    time: 20000
+    images:
+      - url: /assets/img/words/2018/word-0.jpg
+        caption: " "
+      - url: /assets/img/words/2018/word-1.jpg
+        caption: " "
+      - url: /assets/img/words/2018/word-2.jpg    
+        caption: " "
+      - url: /assets/img/words/2018/word-3.jpg    
+        caption: " "
 ---
 
-{% comment %}
 
-	Slate by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
+<h2>TOUT BEAUX TOUT NOUVEAUX</h2>
 
-	Name:
+<figure style="width: 25%" class="align-right">
+  <img src="{{ page.img-path | append: 'intro.jpg' }}" 
+  	alt="this is a placeholder image">
+  <figcaption>This is a figure caption.</figcaption>
+</figure>
 
-		Home page
+<p>Oh que vous nous avez manqué! Alors tant qu'à reprendre pour cette nouvelle année avec vous, autant que ce soit en bonne santé et dans la bonne humeur.</p>
 
-	Description:
-
-		Site home page.
-
-{% endcomment %}
+<p>Oh que vous nous avez manqué! Alors tant qu'à reprendre pour cette nouvelle année avec vous, autant que ce soit en bonne santé et dans la bonne humeur.</p>
 
 
 
-{% include layout/banner.html slides=page.banner %}
 
-<!-- One -->
-	<section id="one" class="wrapper major-pad">
-		<div class="inner">
-			<section class="spotlight">
-				<div class="content">
-					<h2>Tout Beaux Tout Nouveaux</h2>
-					<p>Oh que vous nous avez manqué! Alors tant qu'à reprendre pour cette nouvelle année avec vous, autant que ce soit en bonne santé et dans la bonne humeur.</p>
-				</div>
-				<span class="image"><img src="{{ site.baseurl }}/assets/images/TNTB-Intro.jpeg" alt="" /></span>
-			</section>
-		</div>
-	</section>
 
-<section id="one" class="wrapper major-pad">
-		<div class="inner">
-			<section class="spotlight">
-				<span class="image"><img src="{{ site.baseurl }}/assets/images/TNTB-Presentation-2.jpeg" alt="" /></span>
+<h2>TOUT BEAUX TOUT NOUVEAUX</h2>
 
-				<div class="content">
-					<h2>Tout Beaux Tout Nouveaux</h2>
-					<p>On va inventer un nouveau, allez viens... on est bien bien bien  ....</p>
-				</div>				
-			</section>
-		</div>
-	</section>
+<figure style="width: 25%" class="align-left">
+  <img src="{{ page.img-path | append: 'intro-2.jpg' }}" 
+  	alt="this is a placeholder image">
+  <figcaption>This is a figure caption.</figcaption>
+</figure>
 
-<!-- Two -->
-	<section id="two" class="wrapper content-pad">
-		<div class="inner">
-			{% include components/features.html features=page.features %}
-		</div>
-	</section>
+<p>Oh que vous nous avez manqué! Alors tant qu'à reprendre pour cette nouvelle année avec vous, autant que ce soit en bonne santé et dans la bonne humeur.</p>
 
-<!-- Three -->
-	<section id="three" class="wrapper style2">
-		<div class="inner">
-			<h2>Actualités</h2>
-			{% include components/posts.html posts=site.posts %}
-		</div>
-	</section>
+<p>Oh que vous nous avez manqué! Alors tant qu'à reprendre pour cette nouvelle année avec vous, autant que ce soit en bonne santé et dans la bonne humeur.</p>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<h2>Some Words from lovely people</h2>
+
+<div class="words">
+  
+  {% assign banner = page.words.banner %}
+  {% include carousel  %}
+
+</div>
+
+<hr>
+
+<h2>NOS SPECTACLES</h2>
+
+
+
+{% assign feature_row = site.spectacles | sort: 'date' | reverse %}
+
+<div class="feature__wrapper">
+
+  {% for f in feature_row offset: 0 limit: 3 %}
+
+    {% if f.url contains "://" %}
+      {% capture f_url %}{{ f.url }}{% endcapture %}
+    {% else %}
+      {% capture f_url %}{{ f.url | relative_url }}{% endcapture %}
+    {% endif %}
+
+
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      <div class="archive__item">
+        {% if f.image_path %}
+          <div class="archive__item-teaser">
+            
+            <img src=
+              {% if f.image_path contains "://" %}
+                "{{ f.image_path }}"
+              {% else %}
+                "{{ f.image_path | relative_url }}"
+              {% endif %}
+            alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+            
+
+            {% if f.image_caption %}
+              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+               
+        {% elsif f.header.teaser %}
+          {% capture teaser %}{{ f.header.teaser }}{% endcapture %}
+        
+          <div class="archive__item-teaser">
+            <img src=
+              {% if teaser contains "://" %}
+                "{{ teaser }}"
+              {% else %}
+                "{{ teaser | relative_url }}"
+              {% endif %}
+              alt="">
+          </div>
+        {% endif %}
+
+        <div class="archive__item-body">
+          {% if f.title %}
+            <h2 class="archive__item-title">{{ f.title }}</h2>
+          {% endif %}
+
+          {% if f.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ f.excerpt | markdownify }}
+            </div>
+          {% endif %}
+
+          {% if f.url %}
+            <p><a href="{{ f_url }}" class="btn  btn--primary">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>
+
+
+<h2>Contactez-nous</h2>
+
+<div class="formulario">
+  <form>
+    <fieldset>
+      <legend>Talk to nous:</legend>
+      Name: <input type="text" size="30"><br>
+      Email: <input type="email" size="30">
+      Message: <input type="text" size="10">
+    </fieldset>
+  </form>
+</div>
+
+
+
+
+
