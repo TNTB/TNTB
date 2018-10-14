@@ -7,3 +7,11 @@ _site/
 .DS_Store
 .AppleDouble
 .LSOverride
+
+
+# Jekyll
+*.gem
+*.sublime-project
+*.sublime-workspace
+.bundle
+vendor
