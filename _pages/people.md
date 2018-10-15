@@ -43,24 +43,23 @@ troupe2:
     excerpt: "From the vosges to the world... Morgane!."      
     url: "#test-link"    
     btn_class: "btn--primary"    
-  - image_path: assets/img/people/pierre.jpg
+
+- image_path: assets/img/people/pierre.jpg
     title: "Pierre"
     excerpt: "Pierre... the new Prof qui improvise!! "  
-    excerpt: "Best man in impro ever! "
     url: "#test-link"    
     btn_class: "btn--primary"  
 
 troupe3:
   - image_path: assets/img/people/ben.jpg
     title: "Ben"
-    excerpt: "New father in the "  
-    excerpt: "Best man in impro ever!! "
+    excerpt: "New father in the petit Samuel !!"  
     url: "#test-link"    
     btn_class: "btn--primary"
   - image_path: assets/img/people/jb.jpg
     alt: "JB"
     title: "JB"
-    excerpt: "Best man in impro ever!! "
+    excerpt: "Belgian accent is JB!!"
     url: "#test-link"    
     btn_class: "btn--primary"
   - image_path: assets/img/people/rachid.jpg
@@ -81,7 +80,7 @@ troupe4:
   - image_path: assets/img/people/laure.jpg
     alt: "JB"
     title: "JB"
-    excerpt: "Best man in impro ever!! "
+    excerpt: "Basquetball and Ortophoniste de l'impro... Laure"
     url: "#test-link"    
     btn_class: "btn--primary"
   
