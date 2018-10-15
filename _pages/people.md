@@ -26,6 +26,28 @@ troupe:
     excerpt: "Ohh boy.. you need a tanGuy in your life! "
     url: "#test-link"    
     btn_class: "btn--primary"
+
+
+troupe2:
+  - image_path: assets/img/people/jerome.jpg
+    alt: "Jerome"
+    title: "Je! "
+    excerpt: "You need just one word to explain why a impro scene was wonderful....C'est Jerome!! "
+    url: "#test-link"    
+    btn_class: "btn--primary"
+  - image_path: assets/img/people/morgane.jpg
+    title: "morgane"
+    alt: "Morgane"
+    excerpt: "From the vosges to the world... Morgane!."      
+    url: "#test-link"    
+    btn_class: "btn--primary"
+- image_path: assets/img/people/pierre.jpg
+    title: "Pierre"
+    excerpt: "Pierre... the new Prof qui improvise!! "  
+    url: "#test-link"    
+    btn_class: "btn--primary"  
+
+
 ---
 
 
