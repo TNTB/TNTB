@@ -66,7 +66,35 @@ troupe3:
     url: "#test-link"    
     btn_class: "btn--primary"
     
+troupe4:
+  - image_path: assets/img/people/marion.jpg
+    title: "Marion"
+    excerpt: "Française mais avec l'ame cubaine... Marion"  
+    url: "#test-link"    
+    btn_class: "btn--primary"
+  - image_path: assets/img/people/laure.jpg
+    alt: "JB"
+    title: "JB"
+    excerpt: "Basquetball and Ortophoniste de l'impro... Laure"
+    url: "#test-link"    
+    btn_class: "btn--primary"
 
+guests:
+  - image_path: assets/img/people/guests/erwan.jpg
+    title: "Erwan"
+    excerpt: "Magician of the music"  
+    url: "#test-link"    
+    btn_class: "btn--primary"
+  - image_path: assets/img/people/guests/charlie.jpg    
+    title: "Charlie"
+    excerpt: "Coaching spirituel by Charlie "
+    url: "#test-link"    
+    btn_class: "btn--primary"
+  - image_path: assets/img/people/guests/mathieu.jpg    
+    title: "Mathieu"
+    excerpt: " "      
+    url: "#test-link"    
+    btn_class: "btn--primary"  
 
 ---
 
