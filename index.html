@@ -38,8 +38,8 @@ words:
 
 <div class="" style="width: 90%; margin: 2em auto;">
 <video width="90%" height="auto" controls>
-  <source src="/assets/video/tntb.mp4" type="video/mp4">
-  <source src="/assets/video/tntb.ogg" type="video/ogg">
+  <source src="{{ site.baseurl | append: '/assets/video/tntb.mp4' }}" type="video/mp4">
+  <source src="{{ site.baseurl | append: '/assets/video/tntb.ogg' }}" type="video/ogg">
 Your browser does not support the video tag.
 </video>
 </div>
@@ -48,7 +48,7 @@ Your browser does not support the video tag.
 <h2>TOUT BEAUX TOUT NOUVEAUX</h2>
 
 <figure style="width: 25%" class="align-right">
-  <img src="{{ page.img-path | append: 'intro.jpg' }}" 
+  <img src="{{ site.baseurl | append: page.img-path | append: 'intro.jpg' }}" 
   	alt="this is a placeholder image">
   <figcaption>This is a figure caption.</figcaption>
 </figure>
@@ -64,7 +64,7 @@ Your browser does not support the video tag.
 <h2>TOUT BEAUX TOUT NOUVEAUX</h2>
 
 <figure style="width: 25%" class="align-left">
-  <img src="{{ page.img-path | append: 'intro-2.jpg' }}" 
+  <img src="{{ site.baseurl | append: page.img-path | append: 'intro-2.jpg' }}" 
   	alt="this is a placeholder image">
   <figcaption>This is a figure caption.</figcaption>
 </figure>
