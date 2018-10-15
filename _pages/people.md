@@ -48,6 +48,26 @@ troupe2:
     btn_class: "btn--primary"  
 
 
+troupe3:
+  - image_path: assets/img/people/ben.jpg
+    title: "Ben"
+    excerpt: "New father in the petit Samuel !!"  
+    url: "#test-link"    
+    btn_class: "btn--primary"
+  - image_path: assets/img/people/jb.jpg
+    alt: "JB"
+    title: "JB"
+    excerpt: "Belgian accent is JB!!"
+    url: "#test-link"    
+    btn_class: "btn--primary"
+  - image_path: assets/img/people/rachid.jpg
+    title: "Rachid"
+    excerpt: "He comes with the big smile and the best flavors from marroc..Rachid "  
+    url: "#test-link"    
+    btn_class: "btn--primary"
+    
+
+
 ---
 
 
