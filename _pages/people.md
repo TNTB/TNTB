@@ -11,40 +11,41 @@ troupe:
   - image_path: assets/img/people/antoine.jpg
     alt: "Antoine"
     title: "Antoine"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "PAssion about impro is equal to Antoine"
     url: "#test-link"
     btn_class: "btn--primary"    
 
   - image_path: assets/img/people/caro.jpg
     alt: "Caro"
     title: "Caro"
-    excerpt: "Best woman in impro ever! "
+    excerpt: "Have you ever seeen the Best woman in impro ever?.. Voilà Caro! "
     url: "#test-link"    
     btn_class: "btn--primary"
 
   - image_path: assets/img/people/tanguy.jpg
     alt: "tanguy"
     title: "Tanguy"
-    excerpt: "Best Guy in impro ever! "
+    excerpt: "Ohh boy.. you need a tanGuy in your life! "
     url: "#test-link"    
     btn_class: "btn--primary"
+
 troupe2:
   - image_path: assets/img/people/jerome.jpg
     alt: "Jerome"
     title: "Je! "
-    excerpt: "Best man in impro ever! "
+    excerpt: "You need just one word to explain why a impro scene was wonderful....C'est Jerome!! "
     url: "#test-link"    
     btn_class: "btn--primary"
   
   - image_path: assets/img/people/morgane.jpg
     title: "morgane"
     alt: "Morgane"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."      
+    excerpt: "From the vosges to the world... Morgane!."      
     url: "#test-link"    
     btn_class: "btn--primary"    
   - image_path: assets/img/people/pierre.jpg
     title: "Pierre"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."  
+    excerpt: "Pierre... the new Prof qui improvise!! "  
     excerpt: "Best man in impro ever! "
     url: "#test-link"    
     btn_class: "btn--primary"  
@@ -52,7 +53,7 @@ troupe2:
 troupe3:
   - image_path: assets/img/people/ben.jpg
     title: "Ben"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."  
+    excerpt: "New father in the "  
     excerpt: "Best man in impro ever!! "
     url: "#test-link"    
     btn_class: "btn--primary"
@@ -64,7 +65,7 @@ troupe3:
     btn_class: "btn--primary"
   - image_path: assets/img/people/rachid.jpg
     title: "Rachid"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."  
+    excerpt: "He comes with the big smile and the best flavors from marroc..Rachid "  
     excerpt: "Best man in impro ever!! "
     url: "#test-link"    
     btn_class: "btn--primary"
@@ -72,7 +73,7 @@ troupe3:
 troupe4:
   - image_path: assets/img/people/marion.jpg
     title: "Marion"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."  
+    excerpt: "Française mais avec l'ame cubaine... Marion"  
     excerpt: "Best woman in impro ever!! "
     url: "#test-link"    
     btn_class: "btn--primary"
@@ -84,29 +85,23 @@ troupe4:
     url: "#test-link"    
     btn_class: "btn--primary"
   
-  - image_path: assets/img/people/rachid.jpg
-    title: "Rachid"
-    excerpt: "Best man in impro ever!! "
-    url: "#test-link"    
-    btn_class: "btn--primary"
-
 guests:
   - image_path: assets/img/people/guests/erwan.jpg
     title: "Erwan"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."  
+    excerpt: "Magician of the music"  
     excerpt: "Best woman in impro ever!! "
     url: "#test-link"    
     btn_class: "btn--primary"
   
   - image_path: assets/img/people/guests/charlie.jpg    
     title: "Charlie"
-    excerpt: "Best man in impro ever!! "
+    excerpt: "Coaching spirituel by Charlie "
     url: "#test-link"    
     btn_class: "btn--primary"
   
   - image_path: assets/img/people/guests/mathieu.jpg    
     title: "Mathieu"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."      
+    excerpt: " "      
     url: "#test-link"    
     btn_class: "btn--primary"  
 
