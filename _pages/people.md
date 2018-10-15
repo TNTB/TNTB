@@ -41,7 +41,7 @@ troupe2:
     excerpt: "From the vosges to the world... Morgane!."      
     url: "#test-link"    
     btn_class: "btn--primary"
-- image_path: assets/img/people/pierre.jpg
+  - image_path: assets/img/people/pierre.jpg
     title: "Pierre"
     excerpt: "Pierre... the new Prof qui improvise!! "  
     url: "#test-link"    
