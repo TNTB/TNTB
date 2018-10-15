@@ -11,17 +11,15 @@ troupe:
   - image_path: assets/img/people/antoine.jpg
     alt: "Antoine"
     title: "Antoine"
-    excerpt: "PAssion about impro is equal to Antoine"
+    excerpt: "Passion about impro is equal to Antoine"
     url: "#test-link"
-    btn_class: "btn--primary"    
-
+    btn_class: "btn--primary"
   - image_path: assets/img/people/caro.jpg
     alt: "Caro"
     title: "Caro"
-    excerpt: "Have you ever seeen the Best woman in impro ever?.. Voilà Caro! "
+    excerpt: "Have you ever seeen the Best woman in impro ever?.. Voilà Caro!"
     url: "#test-link"    
     btn_class: "btn--primary"
-
   - image_path: assets/img/people/tanguy.jpg
     alt: "tanguy"
     title: "Tanguy"
@@ -36,14 +34,12 @@ troupe2:
     excerpt: "You need just one word to explain why a impro scene was wonderful....C'est Jerome!! "
     url: "#test-link"    
     btn_class: "btn--primary"
-  
   - image_path: assets/img/people/morgane.jpg
     title: "morgane"
     alt: "Morgane"
     excerpt: "From the vosges to the world... Morgane!."      
     url: "#test-link"    
-    btn_class: "btn--primary"    
-
+    btn_class: "btn--primary"
 - image_path: assets/img/people/pierre.jpg
     title: "Pierre"
     excerpt: "Pierre... the new Prof qui improvise!! "  
@@ -65,45 +61,38 @@ troupe3:
   - image_path: assets/img/people/rachid.jpg
     title: "Rachid"
     excerpt: "He comes with the big smile and the best flavors from marroc..Rachid "  
-    excerpt: "Best man in impro ever!! "
     url: "#test-link"    
     btn_class: "btn--primary"
-  
+    
 troupe4:
   - image_path: assets/img/people/marion.jpg
     title: "Marion"
     excerpt: "Française mais avec l'ame cubaine... Marion"  
-    excerpt: "Best woman in impro ever!! "
     url: "#test-link"    
     btn_class: "btn--primary"
-  
   - image_path: assets/img/people/laure.jpg
     alt: "JB"
     title: "JB"
     excerpt: "Basquetball and Ortophoniste de l'impro... Laure"
     url: "#test-link"    
     btn_class: "btn--primary"
-  
+
 guests:
   - image_path: assets/img/people/guests/erwan.jpg
     title: "Erwan"
     excerpt: "Magician of the music"  
-    excerpt: "Best woman in impro ever!! "
     url: "#test-link"    
     btn_class: "btn--primary"
-  
   - image_path: assets/img/people/guests/charlie.jpg    
     title: "Charlie"
     excerpt: "Coaching spirituel by Charlie "
     url: "#test-link"    
     btn_class: "btn--primary"
-  
   - image_path: assets/img/people/guests/mathieu.jpg    
     title: "Mathieu"
     excerpt: " "      
     url: "#test-link"    
     btn_class: "btn--primary"  
-
 ---
 
 
