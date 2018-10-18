@@ -9,11 +9,11 @@ header:
     id: home
     time: 20000
     images:
-      - url: /assets/img/1-home/banner/banner-1.jpg
+      - url: /TNTB/assets/img/1-home/banner/banner-1.jpg
         caption: "Unis par la passion de l'Impro"
-      - url: /assets/img/1-home/banner/banner-2.jpg
+      - url: /TNTB/assets/img/1-home/banner/banner-2.jpg
         caption: "Une voix, un sourire, un regard"
-      - url: /assets/img/1-home/banner/banner-3.jpg    
+      - url: /TNTB/assets/img/1-home/banner/banner-3.jpg    
         caption: "C'est la victoire de la joie"
 
 words:
@@ -22,24 +22,24 @@ words:
     id: words
     time: 20000
     images:
-      - url: /assets/img/words/2018/word-0.jpg
+      - url: /TNTB/assets/img/words/2018/word-0.jpg
         caption: " "
-      - url: /assets/img/words/2018/word-1.jpg
+      - url: /TNTB/assets/img/words/2018/word-1.jpg
         caption: " "
-      - url: /assets/img/words/2018/word-2.jpg    
+      - url: /TNTB/assets/img/words/2018/word-2.jpg    
         caption: " "
-      - url: /assets/img/words/2018/word-3.jpg    
+      - url: /TNTB/assets/img/words/2018/word-3.jpg    
         caption: " "
 ---
 
 
 
 <h2>Actualités</h2>
-
+ 
 <div class="" style="width: 90%; margin: 2em auto;">
-<video width="90%" height="auto" controls>
-  <source src="/assets/video/tntb.mp4" type="video/mp4">
-  <source src="/assets/video/tntb.ogg" type="video/ogg">
+<video width="90%" height="auto" controls autoplay>
+  <source src="{{ site.baseurl | append: '/assets/video/tntb.mp4' }}" type="video/mp4">
+  <source src="{{ site.baseurl | append: '/assets/video/tntb.ogg' }}" type="video/ogg">
 Your browser does not support the video tag.
 </video>
 </div>
@@ -48,7 +48,7 @@ Your browser does not support the video tag.
 <h2>TOUT BEAUX TOUT NOUVEAUX</h2>
 
 <figure style="width: 25%" class="align-right">
-  <img src="{{ page.img-path | append: 'intro.jpg' }}" 
+  <img src="{{ site.baseurl | append: page.img-path | append: 'intro.jpg' }}" 
   	alt="this is a placeholder image">
   <figcaption>This is a figure caption.</figcaption>
 </figure>
@@ -64,7 +64,7 @@ Your browser does not support the video tag.
 <h2>TOUT BEAUX TOUT NOUVEAUX</h2>
 
 <figure style="width: 25%" class="align-left">
-  <img src="{{ page.img-path | append: 'intro-2.jpg' }}" 
+  <img src="{{ site.baseurl | append: page.img-path | append: 'intro-2.jpg' }}" 
   	alt="this is a placeholder image">
   <figcaption>This is a figure caption.</figcaption>
 </figure>
