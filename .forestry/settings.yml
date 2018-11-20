@@ -10,7 +10,7 @@ sections:
   create: all
   match: "**/*"
 - type: jekyll-pages
-  label: Pages
+  label: Home
   create: all
 - type: directory
   path: _spectacles
