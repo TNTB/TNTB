@@ -65,11 +65,12 @@
 
     </div>
 
-  {% elsif page.header.image == "banner" %}
+  {% elsif page.header.banner %}
     {% assign banner = page.header.banner %}
-   <div style="text-align: center;">
-    {% include carousel  %}
-   </div>
+     <div style="text-align: center;">
+      {% include carousel  %}
+     </div>
+
   {% else %}
     <img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">
   {% endif %}
