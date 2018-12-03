@@ -4,12 +4,6 @@ auto_deploy: true
 admin_path: "/admin/"
 webhook_url: 
 sections:
-- type: directory
-  path: collections/_posts
-  label: Post 2
-  create: documents
-  match: "**/*"
-  new_doc_ext: md
 - type: jekyll-pages
   label: Home
   create: all
@@ -22,6 +16,12 @@ sections:
   label: Post
   create: all
   new_doc_ext: md
+- type: directory
+  path: collections/_posts
+  label: Post 2
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
 - type: directory
   path: _pages
   label: Sections
