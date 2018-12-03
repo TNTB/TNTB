@@ -8,6 +8,16 @@ fields:
   type: text
   hidden: false
   default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: excerpt
+  label: Excerpt
+  type: text
+  hidden: false
+  default: ''
 - name: header
   label: Header
   type: field_group
@@ -54,21 +64,11 @@ fields:
     type: text
     hidden: false
     default: ''
-  - name: teaser
-    label: Teaser
-    type: file
-    hidden: false
-    default: ''
-  hidden: false
-  default: ''
-- name: excerpt
-  label: Excerpt
-  type: text
-  hidden: false
-  default: ''
-- name: date
-  label: Date
-  type: datetime
+  - type: file
+    name: teaser
+    label: teaser
+    description: This is image in the card of 'Spectacles' section. Suggested dimension
+      600X400px
   hidden: false
   default: ''
 pages:
