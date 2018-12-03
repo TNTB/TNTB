@@ -1,7 +1,7 @@
 ---
-label: ImprO - MJC Bazin (2 Concepts) - Impulse + Elles
-hide_body: 
-is_partial: 
+label: Template Spectacles
+hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
