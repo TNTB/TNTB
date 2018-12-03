@@ -18,6 +18,7 @@ fields:
   type: text
   hidden: false
   default: ''
+  description: Short description of the spectacle
 - name: header
   label: Header
   type: field_group
