@@ -79,6 +79,8 @@ fields:
       color_format: Hex
     name: overlay_filter_
     label: Overlay Effect on header photo
+    description: 'Color/opacity to overlay on top of the header image eg: 0.5 or rgba(255,
+      0, 0, 0.5)'
   hidden: false
   default: ''
 pages:
