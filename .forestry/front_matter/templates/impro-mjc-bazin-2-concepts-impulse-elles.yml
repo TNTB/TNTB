@@ -35,38 +35,6 @@ fields:
     hidden: false
     default: ''
     description: 'Image in the post content. '
-  - name: banner
-    label: Banner
-    type: field_group
-    fields:
-    - name: id
-      label: Id
-      type: text
-      hidden: false
-      default: ''
-    - name: time
-      label: Time
-      type: text
-      hidden: false
-      default: ''
-    - name: images
-      label: Images
-      type: field_group_list
-      fields:
-      - name: url
-        label: Url
-        type: text
-        hidden: false
-        default: ''
-      - name: caption
-        label: Caption
-        type: text
-        hidden: false
-        default: ''
-      hidden: false
-      default: ''
-    hidden: true
-    default: ''
   hidden: false
   default: ''
 pages:
