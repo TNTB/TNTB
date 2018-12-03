@@ -71,3 +71,5 @@ fields:
   type: datetime
   hidden: false
   default: ''
+pages:
+- collections/_spectacles/test-spectacle-from-forestry.md
