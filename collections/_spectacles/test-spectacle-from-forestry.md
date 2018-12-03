@@ -13,3 +13,6 @@ excerpt: Hello, this is a test from Forestry
 published: false
 
 ---
+# Hello.. This is a test from forestry
+
+This is a template from forestry for test
