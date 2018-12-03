@@ -10,8 +10,11 @@ sections:
 - type: directory
   path: collections/_spectacles
   label: Spectacles
-  create: all
+  create: documents
   match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - impro-mjc-bazin-2-concepts-impulse-elles
 - type: directory
   path: collections/_posts
   label: Post
