@@ -12,7 +12,7 @@ sections:
   label: Spectacles
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - impro-mjc-bazin-2-concepts-impulse-elles
 - type: directory
