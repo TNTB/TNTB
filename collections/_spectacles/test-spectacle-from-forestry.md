@@ -6,9 +6,9 @@ header:
     id: ''
     time: ''
     images: []
-  overlay_image: "/assets/uploads/2018/12/03/test-image.png"
+  overlay_image: "/uploads/2018/12/03/test-image.png"
   overlay_filter: ''
-  teaser: "/assets/uploads/2018/12/03/teaser.jpg"
+  teaser: "/uploads/2018/12/03/teaser.jpg"
 excerpt: Hello, this is a test from Forestry
 
 ---
