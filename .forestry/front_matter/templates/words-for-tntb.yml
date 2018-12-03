@@ -44,3 +44,5 @@ fields:
   type: datetime
   hidden: false
   default: ''
+pages:
+- collections/_posts/prueba-2-vamos-a-vers.md
