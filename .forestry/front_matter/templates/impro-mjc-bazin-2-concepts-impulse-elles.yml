@@ -35,11 +35,11 @@ fields:
     hidden: false
     default: ''
     description: 'Image in the post content. '
-  - name: overlay_filter
-    label: Overlay filter
-    type: text
-    hidden: false
-    default: ''
+  - type: color
+    config:
+      color_format: Hex
+    name: overlay_filter
+    label: Overlay Effect on header photo
     description: 'Color/opacity to overlay on top of the header image eg: 0.5 or rgba(255,
       0, 0, 0.5)'
   - name: banner
@@ -72,15 +72,8 @@ fields:
         default: ''
       hidden: false
       default: ''
-    hidden: false
+    hidden: true
     default: ''
-  - type: color
-    config:
-      color_format: Hex
-    name: overlay_filter_
-    label: Overlay Effect on header photo
-    description: 'Color/opacity to overlay on top of the header image eg: 0.5 or rgba(255,
-      0, 0, 0.5)'
   hidden: false
   default: ''
 pages:
