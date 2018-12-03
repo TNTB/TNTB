@@ -13,6 +13,7 @@ fields:
   type: datetime
   hidden: false
   default: ''
+  description: Date of the spectacle
 - name: excerpt
   label: Excerpt
   type: text
