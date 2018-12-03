@@ -10,7 +10,6 @@ header:
   overlay_filter: ''
   teaser: "/assets/uploads/2018/12/03/teaser.jpg"
 excerpt: Hello, this is a test from Forestry
-published: false
 
 ---
 # Hello.. This is a test from forestry
