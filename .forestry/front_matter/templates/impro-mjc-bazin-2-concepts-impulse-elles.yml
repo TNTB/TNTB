@@ -67,7 +67,6 @@ fields:
       default: ''
     hidden: true
     default: ''
-  - type: number
   hidden: false
   default: ''
 pages:
