@@ -13,7 +13,7 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: _spectacles
+  path: collections/_spectacles
   label: Spectacles
   create: all
   match: "**/*"
