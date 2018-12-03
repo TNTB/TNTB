@@ -74,6 +74,11 @@ fields:
       default: ''
     hidden: false
     default: ''
+  - type: color
+    config:
+      color_format: Hex
+    name: overlay_filter_
+    label: Overlay Effect on header photo
   hidden: false
   default: ''
 pages:
