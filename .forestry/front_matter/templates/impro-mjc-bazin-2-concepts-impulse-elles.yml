@@ -35,14 +35,6 @@ fields:
     hidden: false
     default: ''
     description: 'Image in the post content. '
-  - type: color
-    config:
-      color_format: Hex
-    name: overlay_filter
-    label: Overlay Effect on header photo
-    description: 'Color/opacity to overlay on top of the header image eg: 0.5 or rgba(255,
-      0, 0, 0.5)'
-    default: "#FCE0B9"
   - name: banner
     label: Banner
     type: field_group
