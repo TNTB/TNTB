@@ -28,10 +28,11 @@ fields:
     description: This is image in the card of 'Spectacles' section. Suggested dimension
       600X400px
   - name: overlay_image
-    label: Overlay image
+    label: Header image of the post
     type: file
     hidden: false
     default: ''
+    description: 'Image in the post content. '
   - name: overlay_filter
     label: Overlay filter
     type: text
