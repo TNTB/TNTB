@@ -64,6 +64,8 @@ fields:
     type: text
     hidden: false
     default: ''
+    description: 'Color/opacity to overlay on top of the header image eg: 0.5 or rgba(255,
+      0, 0, 0.5)'
   - type: file
     name: teaser
     label: teaser
