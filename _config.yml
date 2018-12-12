@@ -18,10 +18,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "fr-FR"
 title                    : "TNTB IMPRO"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : "http://fabbiocrux.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/TNTB" # the subpath of your site, e.g. "/blog"
+name                     : "TNTB Impro"
+description              : "Troupe d'Impro TNTB à Nancy."
+url                      : #"http://fabbiocrux.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : #"/TNTB" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -99,6 +99,8 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
+
+
 # Site Author
 author:
   name             : "TNTB Impro"
@@ -134,7 +136,7 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://www.facebook.com/tntbimpro/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
