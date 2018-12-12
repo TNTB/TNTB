@@ -29,6 +29,30 @@ $Yellow-TNTB: #F0B480;
 	margin-top: -7em;	
 }
 
+
+.page__content {
+  h1{
+  	text-align: center;
+    margin: 4em 2em 1em 2em;
+    padding-bottom: 0.5em;
+    border-bottom: 3px solid $border-color;
+  }
+
+  h2 {
+    
+    text-align: center;
+    margin: 4em 2em 1em 2em;
+
+    padding-top: 1.5em;
+	border-top: 2px solid $border-color; 
+    
+    padding-bottom: 0.5em;
+    border-bottom: 5px solid $border-color;
+     
+    
+    }
+} 
+
 .carousel-caption{
 	bottom: 40%;
 	font-size:1.5em;
