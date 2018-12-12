@@ -20,6 +20,14 @@ troupe:
     excerpt: "Have you ever seeen the Best woman in impro ever?.. Voilà Caro!"
     url: "#test-link"    
     btn_class: "btn--primary"
+
+    
+  - image_path: assets/img/people/pierre.jpg
+    title: "Pierre"
+    excerpt: "Pierre... the new Prof qui improvise!! "  
+    url: "#test-link"    
+    btn_class: "btn--primary"  
+
   - image_path: assets/img/people/tanguy.jpg
     alt: "tanguy"
     title: "Tanguy"
@@ -27,46 +35,26 @@ troupe:
     url: "#test-link"    
     btn_class: "btn--primary"
 
-
-troupe2:
   - image_path: assets/img/people/jerome.jpg
     alt: "Jerome"
     title: "Je! "
     excerpt: "You need just one word to explain why a impro scene was wonderful....C'est Jerome!! "
     url: "#test-link"    
     btn_class: "btn--primary"
+
   - image_path: assets/img/people/morgane.jpg
     title: "morgane"
     alt: "Morgane"
     excerpt: "From the vosges to the world... Morgane!."      
     url: "#test-link"    
     btn_class: "btn--primary"
-  - image_path: assets/img/people/pierre.jpg
-    title: "Pierre"
-    excerpt: "Pierre... the new Prof qui improvise!! "  
-    url: "#test-link"    
-    btn_class: "btn--primary"  
 
-
-troupe3:
-  - image_path: assets/img/people/ben.jpg
-    title: "Ben"
-    excerpt: "New father in the petit Samuel !!"  
-    url: "#test-link"    
-    btn_class: "btn--primary"
-  - image_path: assets/img/people/jb.jpg
-    alt: "JB"
-    title: "JB"
-    excerpt: "Belgian accent is JB!!"
-    url: "#test-link"    
-    btn_class: "btn--primary"
   - image_path: assets/img/people/rachid.jpg
     title: "Rachid"
     excerpt: "He comes with the big smile and the best flavors from marroc..Rachid "  
     url: "#test-link"    
     btn_class: "btn--primary"
     
-troupe4:
   - image_path: assets/img/people/marion.jpg
     title: "Marion"
     excerpt: "Française mais avec l'ame cubaine... Marion"  
@@ -78,6 +66,22 @@ troupe4:
     excerpt: "Basquetball and Ortophoniste de l'impro... Laure"
     url: "#test-link"    
     btn_class: "btn--primary"
+
+
+
+  - image_path: assets/img/people/ben.jpg
+    title: "Ben"
+    excerpt: "New father in the petit Samuel !!"  
+    url: "#test-link"    
+    btn_class: "btn--primary"
+  - image_path: assets/img/people/jb.jpg
+    alt: "JB"
+    title: "JB"
+    excerpt: "Belgian accent is JB!!"
+    url: "#test-link"    
+    btn_class: "btn--primary"
+
+
 
 guests:
   - image_path: assets/img/people/guests/erwan.jpg
@@ -99,13 +103,16 @@ guests:
 ---
 
 
-{% include feature_row id="troupe" type="right" %}
+---
+# Our dream team
+{: .text-center}
 
-{% include feature_row id="troupe2" type="left" %}
+----
 
-{% include feature_row id="troupe3" type="right" %}
 
-{% include feature_row id="troupe4" type="left" %}
+
+{% include feature_row id="troupe" %}
+
 
 ---
 

@@ -1,0 +1,184 @@
+---
+layout: splash
+title: Home
+permalink: "/blabla"
+
+img-path: "/assets/img/1-home/"
+
+header:
+  image: "banner"
+  banner: 
+    id: home
+    time: 20000
+    images:
+      - url: /TNTB/assets/img/1-home/banner/banner-1.jpg
+        caption: "Unis par la passion de l'Impro"
+      - url: /TNTB/assets/img/1-home/banner/banner-2.jpg
+        caption: "Une voix, un sourire, un regard"
+      - url: /TNTB/assets/img/1-home/banner/banner-3.jpg    
+        caption: "C'est la victoire de la joie"
+
+words:
+  image: "banner"
+  banner: 
+    id: words
+    time: 20000
+    images:
+      - url: /TNTB/assets/img/words/2018/word-0.jpg
+        caption: " "
+      - url: /TNTB/assets/img/words/2018/word-1.jpg
+        caption: " "
+      - url: /TNTB/assets/img/words/2018/word-2.jpg    
+        caption: " "
+      - url: /TNTB/assets/img/words/2018/word-3.jpg    
+        caption: " "
+---
+
+
+
+<h2>Actualités</h2>
+ 
+<div class="" style="width: 90%; margin: 2em auto;">
+<video width="90%" height="auto" controls autoplay>
+  <source src="{{ site.baseurl | append: '/assets/video/tntb.mp4' }}" type="video/mp4">
+  <source src="{{ site.baseurl | append: '/assets/video/tntb.ogg' }}" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</div>
+
+
+<h2>TOUT BEAUX TOUT NOUVEAUX</h2>
+
+<figure style="width: 25%" class="align-right">
+  <img src="{{ site.baseurl | append: page.img-path | append: 'intro.jpg' }}" 
+    alt="this is a placeholder image">
+  <figcaption>This is a figure caption.</figcaption>
+</figure>
+
+<p>Oh que vous nous avez manqué! Alors tant qu'à reprendre pour cette nouvelle année avec vous, autant que ce soit en bonne santé et dans la bonne humeur.</p>
+
+<p>Oh que vous nous avez manqué! Alors tant qu'à reprendre pour cette nouvelle année avec vous, autant que ce soit en bonne santé et dans la bonne humeur.</p>
+
+
+
+
+
+<h2>TOUT BEAUX TOUT NOUVEAUX</h2>
+
+<figure style="width: 25%" class="align-left">
+  <img src="{{ site.baseurl | append: page.img-path | append: 'intro-2.jpg' }}" 
+    alt="this is a placeholder image">
+  <figcaption>This is a figure caption.</figcaption>
+</figure>
+
+<p>Oh que vous nous avez manqué! Alors tant qu'à reprendre pour cette nouvelle année avec vous, autant que ce soit en bonne santé et dans la bonne humeur.</p>
+
+<p>Oh que vous nous avez manqué! Alors tant qu'à reprendre pour cette nouvelle année avec vous, autant que ce soit en bonne santé et dans la bonne humeur.</p>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<h2>Some Words from lovely people</h2>
+
+<div class="words">
+  
+  {% assign banner = page.words.banner %}
+  {% include carousel  %}
+
+</div>
+
+<hr>
+
+<h2>NOS SPECTACLES</h2>
+
+
+
+{% assign feature_row = site.spectacles | sort: 'date' | reverse %}
+
+<div class="feature__wrapper">
+
+  {% for f in feature_row offset: 0 limit: 3 %}
+
+    {% if f.url contains "://" %}
+      {% capture f_url %}{{ f.url }}{% endcapture %}
+    {% else %}
+      {% capture f_url %}{{ f.url | relative_url }}{% endcapture %}
+    {% endif %}
+
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      <div class="archive__item">
+        {% if f.image_path %}
+          <div class="archive__item-teaser">
+            
+            <img src=
+              {% if f.image_path contains "://" %}
+                "{{ f.image_path }}"
+              {% else %}
+                "{{ f.image_path | relative_url }}"
+              {% endif %}
+            alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+            
+
+            {% if f.image_caption %}
+              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+               
+        {% elsif f.header.teaser %}
+          {% capture teaser %}{{ f.header.teaser }}{% endcapture %}
+        
+          <div class="archive__item-teaser">
+            <img src=
+              {% if teaser contains "://" %}
+                "{{ teaser }}"
+              {% else %}
+                "{{ teaser | relative_url }}"
+              {% endif %}
+              alt="">
+          </div>
+        {% endif %}
+
+        <div class="archive__item-body">
+          {% if f.title %}
+            <h2 class="archive__item-title">{{ f.title }}</h2>
+          {% endif %}
+
+          {% if f.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ f.excerpt | markdownify }}
+            </div>
+          {% endif %}
+
+          {% if f.url %}
+            <p><a href="{{ f_url }}" class="btn  btn--primary">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>
+
+
+<h2>Contactez-nous</h2>
+
+<div class="formulario">
+  <form>
+    <fieldset>
+      <legend>Talk to nous:</legend>
+      Name: <input type="text" size="30"><br>
+      Email: <input type="email" size="30">
+      Message: <input type="text" size="10">
+    </fieldset>
+  </form>
+</div>
+
+
+
+
+

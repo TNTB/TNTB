@@ -45,6 +45,14 @@ $Yellow-TNTB: #F0B480;
 	}
 }
 
+
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+
+}
+
 .formulario{
 	width: 50%;
 	float: left;
@@ -54,6 +62,9 @@ $Yellow-TNTB: #F0B480;
 	}
 }
 
+.facebook{
+	width: 45%;
+}
 
 .grid__item{
 	.archive__item-teaser {
@@ -66,4 +77,21 @@ $Yellow-TNTB: #F0B480;
 	    }
 	  }
  } 
+
+
+.flex-footer{
+
+	display: flex;
+	justify-content: center;
+	
+	.item-footer{
+	width: 25%;
+	}	
+}
+
+
+
+
+
+
 

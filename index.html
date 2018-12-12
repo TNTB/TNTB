@@ -10,13 +10,14 @@ header:
     id: home
     time: 20000
     images:
-      - url: /TNTB/assets/img/1-home/banner/banner-1.jpg
+      - url: /TNTB/uploads/2018/12/03/banner-1.jpg
         caption: "Unis par la passion de l'Impro"
-      - url: /TNTB/assets/img/1-home/banner/banner-2.jpg
+      - url: /TNTB/uploads/2018/12/03/banner-2.jpg
         caption: "Une voix, un sourire, un regard"
-      - url: /TNTB/assets/img/1-home/banner/banner-3.jpg    
+      - url: /TNTB/uploads/2018/12/03/banner-3.jpg    
         caption: "C'est la victoire de la joie"
-
+      - url: /TNTB/uploads/2018/12/03/banner-4.jpg    
+        caption: "C'est la victoire de la joie"
 words:  
   banner: 
     id: words
@@ -74,12 +75,6 @@ Your browser does not support the video tag.
 <p>Oh que vous nous avez manqué! Alors tant qu'à reprendre pour cette nouvelle année avec vous, autant que ce soit en bonne santé et dans la bonne humeur.</p>
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-
 
 <h2>Some Words from lovely people</h2>
 
@@ -90,109 +85,21 @@ Your browser does not support the video tag.
 
 </div>
 
-<hr>
+
 
 <h2>NOS SPECTACLES</h2>
 
-
-
-{% assign feature_row = site.spectacles | sort: 'date' | reverse %}
-
-<div class="feature__wrapper">
-
-  {% for f in feature_row offset: 0 limit: 3 %}
-
-    {% if f.url contains "://" %}
-      {% capture f_url %}{{ f.url }}{% endcapture %}
-    {% else %}
-      {% capture f_url %}{{ f.url | relative_url }}{% endcapture %}
-    {% endif %}
-
-    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
-      <div class="archive__item">
-        {% if f.image_path %}
-          <div class="archive__item-teaser">
-            
-            <img src=
-              {% if f.image_path contains "://" %}
-                "{{ f.image_path }}"
-              {% else %}
-                "{{ f.image_path | relative_url }}"
-              {% endif %}
-            alt="{% if f.alt %}{{ f.alt }}{% endif %}">
-            
-
-            {% if f.image_caption %}
-              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-            {% endif %}
-          </div>
-               
-        {% elsif f.header.teaser %}
-          {% capture teaser %}{{ f.header.teaser }}{% endcapture %}
-        
-          <div class="archive__item-teaser">
-            <img src=
-              {% if teaser contains "://" %}
-                "{{ teaser }}"
-              {% else %}
-                "{{ teaser | relative_url }}"
-              {% endif %}
-              alt="">
-          </div>
-        {% endif %}
-
-        <div class="archive__item-body">
-          {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
-          {% endif %}
-
-          {% if f.excerpt %}
-            <div class="archive__item-excerpt">
-              {{ f.excerpt | markdownify }}
-            </div>
-          {% endif %}
-
-          {% if f.url %}
-            <p><a href="{{ f_url }}" class="btn  btn--primary">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  {% endfor %}
-
-</div>
+{% include spectacles.html  %}
 
 
 <h2>Un mot, une idée, un concept... Proposez-nous</h2>
 
-<!-- <div class="formulario">
-  <form>
-    <fieldset>
-      <legend>Talk to nous:</legend>
-      Name: <input type="text" size="30"><br>
-      Email: <input type="email" size="30">
-      Message: <input type="text" size="10">
-    </fieldset>
-  </form>
-</div>
- -->
 
-<div class="formulario">
+{% include contact-tntb.html  %}
 
 
-<form action="https://formspree.io/your@email.com" method="POST">
-  <fieldset>
-  Name: <input type="text" name="name">
-  
-  Email: <input type="email" name="_replyto">
 
-  Message: <textarea name="message" placeholder="Test Message"></textarea>
 
-  <input type="submit" value="Send">
-
-  </fieldset>
-</form>
-</div>
 
 
 
