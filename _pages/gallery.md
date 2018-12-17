@@ -45,4 +45,6 @@ fete-soupe:
 
 {% include gallery id="fete-soupe" %}
 
-## Un autre
+## GIF
+
+{% include gallery id="GIF" %}
