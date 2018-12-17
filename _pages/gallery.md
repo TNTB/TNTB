@@ -7,7 +7,7 @@ header:
   overlay_image: assets/img/gallery/banner.jpg
   overlay_filter: 0.3
 fete-soupe:
-- url: ''
+- url: "/uploads/2018/12/17/4152121491_34c148a57f_o-1.jpg"
   image_path: "/uploads/2018/12/17/4152121491_34c148a57f_o.jpg"
   alt: Goes on
   title: Wu
@@ -44,6 +44,5 @@ fete-soupe:
 ## Fete de la Soupe 2018
 
 {% include gallery id="fete-soupe" %}
-
 
 ## Un autre
