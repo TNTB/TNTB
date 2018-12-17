@@ -7,8 +7,8 @@ header:
   overlay_image: assets/img/gallery/banner.jpg
   overlay_filter: 0.3
 fete-soupe:
-- url: "/uploads/2018/12/17/4152121491_34c148a57f_o-1.jpg"
-  image_path: "/uploads/2018/12/17/4152121491_34c148a57f_o.jpg"
+- url: "/uploads/2018/12/17/caca-1.jpg"
+  image_path: "/uploads/2018/12/17/caca.jpg"
   alt: Goes on
   title: Wu
 - url: "/assets/img/gallery/fete-soupe/fete-1.jpg"
