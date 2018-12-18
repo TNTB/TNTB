@@ -36,6 +36,10 @@ fete-soupe:
     image_path: /assets/img/gallery/fete-soupe/fete-7.jpg
     alt: "Fete de la Soupe TNTB 2018"
     title: "Fete de la Soupe TNTB 2018"
+
+
+fete-soupe:
+
 ---
 
 
