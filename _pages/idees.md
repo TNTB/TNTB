@@ -15,21 +15,22 @@ last_modified_at: 2018-11-12 00:00:00 +0000
 
 ## Des idées 
 
-
-
-
 <div class="formulario">
-  <form>
+
+  <form action="https://formspree.io/your@email.com" method="POST">
     <fieldset>
-      <legend>Talk to nous:</legend>
-      Name: <input type="text" size="30"><br>
-      Email: <input type="email" size="30">
-      Message: <input type="text" size="10">
+    Name: <input type="text" name="name">
+    
+    Email: <input type="email" name="_replyto">
+
+    Message: <textarea name="message" placeholder="Test Message"></textarea>
+
+    <input type="submit" value="Send">
+
     </fieldset>
   </form>
+
 </div>
-
-
 
 
 

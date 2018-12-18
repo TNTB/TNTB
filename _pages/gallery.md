@@ -1,7 +1,7 @@
 ---
-title: Special Events
+title: Galerie
 layout: splash
-permalink: "/gallery/"
+permalink: "/galerie/"
 last_modified_at: 2018-10-14 00:00:00 +0000
 header:
   overlay_image: assets/img/gallery/banner.jpg
@@ -44,7 +44,7 @@ GIF:
     title: Wu
 
 ---
-## Fete de la Soupe 2018
+## Quelque photos 
 
 {% include gallery id="fete-soupe" %}
 
