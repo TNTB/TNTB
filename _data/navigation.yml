@@ -15,3 +15,24 @@ main :
 
   - title: "Boite a Idees"
     url  : /idee/
+
+
+spectacles:
+  - title: "Nos spectacles de 2018/2019"
+    children:
+      - title: "Octobre - Be kind Rewan!"
+        url: /spectacles/
+      - title: "Novembre - Rest in Peace!"
+        url: /spectacles/
+      - title: "Decembre - Fortune Cookies!"
+        url: /spectacles/
+      - title: "Janvier - YYY!"
+        url: /spectacles/
+      - title: "Fevrier - R2D2!"
+        url: /spectacles/
+      - title: "Mars - UB40!"
+        url: /spectacles/
+      - title: "Avril - CCCC!"
+        url: /spectacles/
+      - title: "Mai - YMCA!"
+        url: /spectacles/

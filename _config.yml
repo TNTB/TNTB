@@ -287,10 +287,10 @@ includes_dir: _jekyll/_includes
 collections:
   posts:
     output: true
-    permalink: /:collection/:path
+    permalink: /:collection/:path/
   spectacles:
     output: true
-    permalink: /:collection/:path
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -310,4 +310,7 @@ defaults:
       path: ""
       type: "spectacles"
     values:
-      layout: single 
+      layout: single
+      sidebar:
+        nav: "spectacles"
+
