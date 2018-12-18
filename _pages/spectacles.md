@@ -11,6 +11,10 @@ header:
   overlay_image: assets/img/spectacles/banner.jpg
   overlay_filter: 0.5
 
+
+sidebar:
+  nav: spectacles
+
 ---
 
 # Nos spectacles de 2018
