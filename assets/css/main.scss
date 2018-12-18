@@ -4,9 +4,17 @@
 
 @charset "utf-8";
 
+
+// Fonts
+@import "fonts"; // Fonts for LF2L
+
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import "elements-bootstrap"; 
+
+
+
 
 
 
@@ -16,8 +24,18 @@
 $Yellow-TNTB: #F0B480;
 
 .masthead {
-	border-bottom: none
+
+	border-bottom: none; 
+
+  &__inner-wrap {
+
+		font-family: $main-menu;
+	}
 }
+
+
+
+
 .greedy-nav{
 	background: rgba(255, 255, 255, 0);
 	a{
