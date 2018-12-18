@@ -2,9 +2,16 @@
 main :
   - title: "La Troupe"
     url  : /troupe/
-  - title: "Gallerie"
-    url  : /gallery/
+
   - title: "Nos Spectacles"
     url  : /spectacles/
-  - title: "Blog"
-    url  : /blog/  
+
+  - title: "Galerie"
+    url  : /gallery/
+
+  - title: "Le GIF"
+    url  : /le-GIF/  
+
+
+  - title: "Boite a Idees"
+    url  : /idee/
