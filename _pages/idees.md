@@ -9,13 +9,13 @@ header:
   overlay_filter: 0.3
   show_overlay_excerpt: true
 
-last_modified_at: 2018-11-12 00:00:00 +0000
+last_modified_at: 2018-12-18 00:00:00 +0000
 ---
 
 
-## Des idées 
+# Des idées 
 
-<div class="formulario">
+<div id="idees">
 
   <form action="https://formspree.io/your@email.com" method="POST">
     <fieldset>
