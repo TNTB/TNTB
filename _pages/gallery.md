@@ -1,8 +1,8 @@
 ---
-title: "Special Events"
+title: Special Events
 layout: splash
-permalink: /gallery/
-last_modified_at: 2018-10-14
+permalink: "/gallery/"
+last_modified_at: 2018-10-14 00:00:00 +0000
 header:
   overlay_image: assets/img/gallery/banner.jpg
   overlay_filter: 0.3
@@ -37,18 +37,17 @@ fete-soupe:
     alt: "Fete de la Soupe TNTB 2018"
     title: "Fete de la Soupe TNTB 2018"
 
-
-fete-soupe:
+GIF:
+  - url: "/uploads/2018/12/17/caca-1.jpg"
+    image_path: "/uploads/2018/12/17/caca.jpg"
+    alt: Goes on
+    title: Wu
 
 ---
-
-
 ## Fete de la Soupe 2018
 
 {% include gallery id="fete-soupe" %}
 
+## GIF
 
-## Un autre
-
-
-
+{% include gallery id="GIF" %}
