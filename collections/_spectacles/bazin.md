@@ -7,6 +7,6 @@ header:
   overlay_image: "/assets/img/spectacles/2018/bazin.jpg"
 
 ---
-## Deux concept in one
+## Les portes
 
 Ce  que vous pourrez voir dans cette prison ce sont des vies et des personnalités exacerbées, dans des cellules où des univers se forment. Mais où tout le monde est interdépendant. Bienvenus dans le pénitencier... y entrer sera facile, la sortie beaucoup moins sûre...  
