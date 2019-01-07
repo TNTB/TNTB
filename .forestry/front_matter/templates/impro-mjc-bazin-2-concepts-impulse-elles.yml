@@ -12,8 +12,10 @@ fields:
   label: Date
   type: datetime
   hidden: false
-  default: ''
+  default: 2018-12-31 23:00:00 +0000
   description: Date of the spectacle
+  config:
+    required: true
 - name: excerpt
   label: Excerpt
   type: text
