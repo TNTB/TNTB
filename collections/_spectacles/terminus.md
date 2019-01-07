@@ -1,7 +1,7 @@
 ---
 title: Terminus
 excerpt: Some shit
-date: 2016-04-09 00:00:00 +0000
+date: 2019-01-12 01:00:00 +0000
 header:
   teaser: "/assets/img/spectacles/2018/Abril.jpeg"
   overlay_image: "/assets/img/spectacles/2018/Abril.jpeg"
@@ -11,4 +11,4 @@ header:
 
 ![](/uploads/2018/12/03/intro.jpg)
 
-### test 
+### test
