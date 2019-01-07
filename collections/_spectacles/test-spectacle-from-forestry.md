@@ -1,6 +1,6 @@
 ---
 title: Impulsions artistiques
-date: 2018-12-03 19:44:57 +0000
+date: 2019-01-12 19:44:57 +0000
 header:
   overlay_image: "/uploads/2018/12/03/test-image.png"
   overlay_filter: 0.3
