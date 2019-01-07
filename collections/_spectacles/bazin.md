@@ -1,7 +1,7 @@
 ---
 title: Paroles de détenus
 excerpt: Bienvenus dans le pénitencier...
-date: 2018-10-07 00:00:00 +0000
+date: 2019-01-11 23:00:00 +0000
 header:
   teaser: "/assets/img/spectacles/2018/bazin.jpg"
   overlay_image: "/assets/img/spectacles/2018/bazin.jpg"
