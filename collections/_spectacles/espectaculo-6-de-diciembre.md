@@ -1,6 +1,6 @@
 ---
 title: Amnesia
-date: 2018-12-03 20:45:13 +0000
+date: 2019-02-12 20:45:13 +0000
 excerpt: helloss
 header:
   teaser: "/uploads/2018/12/03/test-image.png"
