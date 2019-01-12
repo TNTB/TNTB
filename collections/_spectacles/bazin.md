@@ -3,7 +3,7 @@ title: Paroles de détenus
 excerpt: Bienvenus dans le pénitencier...
 date: 2019-01-11 23:00:00 +0000
 header:
-  teaser: "/uploads/2019/01/12/Paroles de Détenus.jpg"
+  teaser: "/uploads/2019/01/12/Paroles de Détenus-1.jpg"
   overlay_image: "/uploads/2019/01/12/Paroles de Détenus ban2.jpg"
 
 ---
