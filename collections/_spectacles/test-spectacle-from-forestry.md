@@ -8,6 +8,6 @@ header:
 excerpt: Hello, this is a test from Forestry
 
 ---
-# Hello.. This is a test from forestry
+# L'Art sous toutes ses formes
 
 This is a template from forestry for test
