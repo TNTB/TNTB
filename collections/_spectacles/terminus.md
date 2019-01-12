@@ -3,8 +3,8 @@ title: Terminus
 excerpt: Some shit
 date: 2019-01-12 01:00:00 +0000
 header:
-  teaser: "/assets/img/spectacles/2018/Abril.jpeg"
-  overlay_image: "/assets/img/spectacles/2018/Abril.jpeg"
+  teaser: "/uploads/2019/01/12/TERMINUS.jpg"
+  overlay_image: "/uploads/2019/01/12/TERMINUS.jpg"
 
 ---
 ## Terminus of this train!!
