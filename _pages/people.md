@@ -71,7 +71,7 @@ troupe:
   btn_class: btn--primary
 guests:
 - image_path: assets/img/people/guests/erwan.jpg
-  title: Erwan
+  title: Rewan
   excerpt: Magicien de la musique
   url: "#test-link"
   btn_class: btn--primary
