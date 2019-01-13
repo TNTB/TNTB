@@ -1,6 +1,6 @@
 ---
 title: TERMINUS
-excerpt: Some shit
+excerpt: Tout le monde descend
 date: 2019-01-12 01:00:00 +0000
 header:
   teaser: "/uploads/2019/01/12/TERMINUS.jpg"
