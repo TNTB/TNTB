@@ -1,5 +1,5 @@
 ---
-title: Amnesia
+title: AMNESIA
 date: 2019-02-12 20:45:13 +0000
 excerpt: helloss
 header:
