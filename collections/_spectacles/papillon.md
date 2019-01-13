@@ -10,11 +10,10 @@ header:
 ---
 ## Battement d'ailes
 
-[![S'abonner au podcast](https://www.chosesasavoir.com/sabonner.jpg =141x69)](https://www.chosesasavoir.com/sabonner-au-podcast/)  
- L’ « effet papillon » est une métaphore. Elle fut formulée pour la  première fois par le météorologue Edward Lorenz lors d’une conférence en  1972, par la question suivante :
+Une porte qui claque au Japon... évènement sans importance mais qui va permettre à cet homme à choisir de vivre sa vie pleinement, pousser deux amants à se suicider, ou donner enfin le courage à cet enfant de pouvoir prendre la parole en public. Un simple réflexion sur ce qui parait parfois insignifiant ou négligeable.
 
 « _Le battement d’ailes d’un papillon au Brésil peut-il provoquer une tornade au Texas ?_ »
 
-L’effet papillon se matérialise par une suite d’événements dont le  précédent a une influence si infime soit-elle sur le suivant. Ainsi,  d’évènement en évènement on part d’un fait insignifiant pour arriver à  l’autre bout de la chaine à un évènement très différent.
+Inspiré de cette métaphore du météorologue Lorenz Lorenz, le spectacle "L’effet papillon" met en perspective comment chaque évènement, aussi minime soit-il, a une influence sur le suivant.  
 
-Appliquée à la météo, il suffit donc de changer de façon même infime  un paramètre dans un modèle météo pour que celui-ci entraine des  changements majeurs. Lorenz en tirait comme conclusion que prévoir la  météo au dela de 2 ou 3 semaines serait impossible.
+L'infime devient alors majeur. Se concentrer sur ces petites choses qui font la vies et que l'on va pouvoir prendre le temps d'observer, le temps d'un spectacle : une simple respiration. 
