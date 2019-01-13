@@ -1,5 +1,5 @@
 ---
-title: Paroles de détenus
+title: PAROLES DE DÉTENUS
 excerpt: Bienvenus dans le pénitencier...
 date: 2019-01-11 23:00:00 +0000
 header:
