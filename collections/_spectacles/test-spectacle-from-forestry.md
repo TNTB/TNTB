@@ -1,5 +1,5 @@
 ---
-title: Impulsions artistiques
+title: IMPULSIONS ARTISTIQUES
 date: 2019-01-12 19:44:57 +0000
 header:
   overlay_image: "/uploads/2019/01/12/Impulsion Artistique ban.jpg"
