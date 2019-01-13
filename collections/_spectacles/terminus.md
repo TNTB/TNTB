@@ -1,5 +1,5 @@
 ---
-title: Terminus
+title: TERMINUS
 excerpt: Some shit
 date: 2019-01-12 01:00:00 +0000
 header:
