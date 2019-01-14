@@ -10,4 +10,4 @@ excerpt: L'Art sous toutes ses formes (ou presque)
 ---
 # Impulsez!
 
-"Seuls les artistes et les enfants voient la vie telle qu'elle est."
+"L'Art n'est pas supposé être beau; il est supposé vous faire ressentir quelque chose." Rainbow Rowell
