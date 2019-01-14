@@ -8,6 +8,4 @@ header:
 excerpt: L'Art sous toutes ses formes (ou presque)
 
 ---
-# L'Art sous toutes ses formes
-
-This is a template from forestry for test
+# Impulsez!
