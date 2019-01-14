@@ -9,3 +9,5 @@ excerpt: L'Art sous toutes ses formes (ou presque)
 
 ---
 # Impulsez!
+
+"Seuls les artistes et les enfants voient la vie telle qu'elle est."
