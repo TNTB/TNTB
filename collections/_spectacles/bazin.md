@@ -9,6 +9,6 @@ header:
 ---
 ## Les portes bientôt vont se fermer
 
-Ce  que vous pourrez voir dans cette prison ce sont des vies et des personnalités exacerbées, dans des cellules où des univers se forment. Mais où tout le monde est interdépendant. Bienvenus dans le pénitencier... y entrer sera facile, en sortir beaucoup moins sûr.
+Ce que vous pourrez voir dans cette prison ce sont des vies et des personnalités exacerbées, dans des cellules où des univers se forment. Mais où tout le monde est interdépendant. Bienvenus dans le pénitencier... y entrer sera facile, en sortir beaucoup moins sûr.
 
 Dans ce huis clos carcéral : des univers sombres ou éclatants. Entre optimise et déroute, les prisonniers laisseront tour à tour place à l’obscurité puis à la lumière.
