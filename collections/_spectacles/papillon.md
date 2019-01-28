@@ -16,4 +16,4 @@ Une porte qui claque au Japon... évènement sans importance mais qui va permett
 
 Inspiré de cette métaphore du météorologue Edward Lorenz, le spectacle "L’effet papillon" met en perspective comment chaque évènement, aussi minime soit-il, a une influence sur le suivant.
 
-L'infime devient alors majeur. Se concentrer sur ces petites choses qui font la vies et que l'on va pouvoir prendre le temps d'observer, le temps d'un spectacle : une simple respiration.
+L'infime devient alors majeur. Se concentrer sur ces petites choses qui font la vie et que l'on va pouvoir prendre le temps d'observer, le temps d'un spectacle : une simple respiration.
