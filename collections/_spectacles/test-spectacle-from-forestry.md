@@ -14,4 +14,6 @@ excerpt: L'Art sous toutes ses formes (ou presque)
 
 Passer de Picasso à Modigliani en croisant David Cronemberg : plus qu'un pas, c'est un grand écart qui vous est proposé, le temps d'un spectacle.
 
-**I**MPULSION ARTISTIQUE est un concept participatif où le public va pouvoir décider de chaque début d'improvisation grâce à des amorces sous forme de tableaux, de photographies, de sculptures et parfois même de films.
+**I**MPULSION ARTISTIQUE est un concept participatif où le public va pouvoir décider de chaque début d'improvisation grâce à des amorces sous forme de tableaux, photographies, sculptures et parfois même de films.
+
+Énergisant à souhait, ce spectacle ne se donne qu'une seule limite, celle que vous voudrez lui donner. Alors allez-y, inspirez nous.... on expirera! 
