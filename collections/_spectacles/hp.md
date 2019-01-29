@@ -9,4 +9,4 @@ header:
 ---
 # Test of HP
 
-Peut-on vraiment être soigné après avoir passé un séjour dans un hôpital  psychiatrique ? Et surtout, peut-on vraiment y en sortir ?  A vous de pousser les portes de cet établissement où l'humanité n'a plus toujours tous ses droits
+Peut-on vraiment être soigné après avoir passé un séjour dans un hôpital  psychiatrique ? Et surtout, peut-on vraiment en sortir ?  A vous de pousser les portes de cet établissement où l'humanité doit parfois se battre pour garder ses droits.
