@@ -7,7 +7,7 @@ header:
   overlay_image: "/uploads/2019/01/14/HP Ban-1.jpg"
 
 ---
-# Test of HP
+# Traitement en cours
 
 Peut-on vraiment être soigné après avoir passé un séjour dans un hôpital  psychiatrique ? Et surtout, peut-on vraiment en sortir ?  A vous de pousser les portes de cet établissement où l'humanité doit parfois se battre pour garder ses droits.
 
