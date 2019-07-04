@@ -1,7 +1,6 @@
 ---
 label: Template Spectacles
 hide_body: false
-is_partial: false
 fields:
 - name: title
   label: Title
@@ -12,7 +11,7 @@ fields:
   label: Date
   type: datetime
   hidden: false
-  default: 2018-12-31 23:00:00 +0000
+  default: '2018-12-31T23:00:00.000+00:00'
   description: Date of the spectacle
   config:
     required: true
@@ -40,7 +39,7 @@ fields:
   hidden: false
   default: ''
 pages:
-- collections/_spectacles/fortune-cookies.md
-- collections/_spectacles/espectaculo-6-de-diciembre.md
-- collections/_spectacles/test-spectacle-from-forestry.md
 - collections/_spectacles/hp.md
+- collections/_spectacles/test-spectacle-from-forestry.md
+- collections/_spectacles/espectaculo-6-de-diciembre.md
+- collections/_spectacles/fortune-cookies.md
