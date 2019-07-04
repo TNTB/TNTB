@@ -9,4 +9,4 @@ header:
 ---
 # Fortune Cookies
 
-Entre bonne et mauvaise fortune, les messages que nous trouveront seront pour nous la possibilité de vous montrer à quel point votre imaginaire nous nourrit. 
+Entre bonne et mauvaise fortune, les messages que nous trouverons seront la possibilité de vous montrer à quel point votre imaginaire nous nourrit.  
