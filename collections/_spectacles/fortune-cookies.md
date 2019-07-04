@@ -9,6 +9,6 @@ header:
 ---
 # Fortune Cookies
 
-Ces biscuits de la chance (_omikuji senbei en japonais)_ sont devenus un moyen ludique de faire de la prédiction
+Ces biscuits de la chance (_omikuji senbei en japonais)_ sont devenus un moyen ludique de faire de la prédiction... plus ou moins approximative.
 
 Entre bonne et mauvaise fortune, les messages que nous trouverons seront la possibilité de vous montrer à quel point votre imaginaire nous nourrit.  
