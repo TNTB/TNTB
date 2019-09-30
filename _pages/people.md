@@ -9,7 +9,7 @@ troupe:
 - image_path: assets/img/people/antoine.jpg
   alt: Antoine
   title: Antoine
-  excerpt: Impossible n'est pas!
+  excerpt: Impossible n'est pas
   url: "#test-link"
   btn_class: btn--primary
 - image_path: assets/img/people/caro.jpg
@@ -24,10 +24,10 @@ troupe:
   url: "#test-link"
   btn_class: btn--primary
   alt: Pierre
-- image_path: assets/img/people/tanguy.jpg
-  alt: tanguy
-  title: Tanguy
-  excerpt: 'Ohh boy.. you need a tanGuy in your life! '
+- image_path: assets/img/people/morgane.jpg
+  title: morgane
+  alt: Morgane
+  excerpt: From the vosges to the world... Morgane!.
   url: "#test-link"
   btn_class: btn--primary
 - image_path: assets/img/people/jerome.jpg
@@ -37,10 +37,10 @@ troupe:
     Jerome!! '
   url: "#test-link"
   btn_class: btn--primary
-- image_path: assets/img/people/morgane.jpg
-  title: morgane
-  alt: Morgane
-  excerpt: From the vosges to the world... Morgane!.
+- image_path: assets/img/people/tanguy.jpg
+  alt: tanguy
+  title: Tanguy
+  excerpt: 'Ohh boy.. you need a tanGuy in your life! '
   url: "#test-link"
   btn_class: btn--primary
 - image_path: assets/img/people/rachid.jpg
