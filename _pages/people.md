@@ -54,6 +54,7 @@ troupe:
   excerpt: Française mais avec l'ame cubaine... Marion
   url: "#test-link"
   btn_class: btn--primary
+  alt: Marion
 - image_path: assets/img/people/laure.jpg
   alt: Laure
   title: Laure
