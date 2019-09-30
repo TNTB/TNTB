@@ -54,8 +54,8 @@ troupe:
   url: "#test-link"
   btn_class: btn--primary
 - image_path: assets/img/people/laure.jpg
-  alt: JB
-  title: JB
+  alt: Laure
+  title: Laure
   excerpt: Basquetball and Ortophoniste de l'impro... Laure
   url: "#test-link"
   btn_class: btn--primary
