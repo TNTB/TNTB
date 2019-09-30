@@ -9,7 +9,7 @@ troupe:
 - image_path: assets/img/people/antoine.jpg
   alt: Antoine
   title: Antoine
-  excerpt: Impossible n'est pas
+  excerpt: Impossible n'est pas!
   url: "#test-link"
   btn_class: btn--primary
 - image_path: assets/img/people/caro.jpg
