@@ -4,12 +4,12 @@ layout: splash
 permalink: "/troupe/"
 header:
   overlay_image: assets/img/people/banner/banner.jpg
-  overlay_filter: 0.3
+  overlay_filter: "0.3"
 troupe:
 - image_path: assets/img/people/antoine.jpg
   alt: Antoine
   title: Antoine
-  excerpt: Passion about impro is equal to Antoine
+  excerpt: Impossible n'est pas
   url: "#test-link"
   btn_class: btn--primary
 - image_path: assets/img/people/caro.jpg
