@@ -62,10 +62,11 @@ troupe:
   url: "#test-link"
   btn_class: btn--primary
 - image_path: assets/img/people/ben.jpg
-  title: Ben
+  title: Benjamin
   excerpt: New father in the petit Samuel !!
   url: "#test-link"
   btn_class: btn--primary
+  alt: Benjamin
 - image_path: assets/img/people/jb.jpg
   alt: JB
   title: JB
