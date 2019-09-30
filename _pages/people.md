@@ -20,9 +20,10 @@ troupe:
   btn_class: btn--primary
 - image_path: assets/img/people/pierre.jpg
   title: Pierre
-  excerpt: 'Pierre... the new Prof qui improvise!! '
+  excerpt: ''
   url: "#test-link"
   btn_class: btn--primary
+  alt: Pierre
 - image_path: assets/img/people/tanguy.jpg
   alt: tanguy
   title: Tanguy
