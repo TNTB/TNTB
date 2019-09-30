@@ -6,6 +6,12 @@ header:
   overlay_image: assets/img/people/banner/banner.jpg
   overlay_filter: "0.3"
 troupe:
+- image_path: ''
+  alt: Mathias
+  title: Mathias
+  excerpt: ''
+  url: ''
+  btn_class: ''
 - image_path: assets/img/people/antoine.jpg
   alt: Antoine
   title: Antoine
