@@ -48,6 +48,7 @@ troupe:
   excerpt: 'He comes with the big smile and the best flavors from marroc..Rachid '
   url: "#test-link"
   btn_class: btn--primary
+  alt: Rachid
 - image_path: assets/img/people/marion.jpg
   title: Marion
   excerpt: Française mais avec l'ame cubaine... Marion
