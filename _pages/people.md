@@ -25,7 +25,7 @@ troupe:
   btn_class: btn--primary
   alt: Pierre
 - image_path: assets/img/people/morgane.jpg
-  title: morgane
+  title: Morgane
   alt: Morgane
   excerpt: From the vosges to the world... Morgane!.
   url: "#test-link"
