@@ -38,7 +38,7 @@ troupe:
   url: "#test-link"
   btn_class: btn--primary
 - image_path: assets/img/people/tanguy.jpg
-  alt: tanguy
+  alt: Tanguy
   title: Tanguy
   excerpt: 'Ohh boy.. you need a tanGuy in your life! '
   url: "#test-link"
