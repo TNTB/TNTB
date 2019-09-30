@@ -6,18 +6,6 @@ header:
   overlay_image: assets/img/people/banner/banner.jpg
   overlay_filter: "0.3"
 troupe:
-- image_path: ''
-  alt: Fabbio
-  title: Fabbio
-  excerpt: ''
-  url: ''
-  btn_class: ''
-- image_path: ''
-  alt: Delphine
-  title: Delphine
-  excerpt: ''
-  url: ''
-  btn_class: ''
 - image_path: assets/img/people/antoine.jpg
   alt: Antoine
   title: Antoine
@@ -49,10 +37,28 @@ troupe:
     Jerome!! '
   url: "#test-link"
   btn_class: btn--primary
-- image_path: assets/img/people/tanguy.jpg
-  alt: Tanguy
-  title: Tanguy
-  excerpt: 'Ohh boy.. you need a tanGuy in your life! '
+- image_path: ''
+  alt: Delphine
+  title: Delphine
+  excerpt: ''
+  url: ''
+  btn_class: ''
+- image_path: ''
+  alt: Fabbio
+  title: Fabbio
+  excerpt: ''
+  url: ''
+  btn_class: ''
+- image_path: assets/img/people/marion.jpg
+  title: Marion
+  excerpt: Française mais avec l'ame cubaine... Marion
+  url: "#test-link"
+  btn_class: btn--primary
+  alt: Marion
+- image_path: assets/img/people/jb.jpg
+  alt: JB
+  title: JB
+  excerpt: Belgian accent is JB!!
   url: "#test-link"
   btn_class: btn--primary
 - image_path: assets/img/people/rachid.jpg
@@ -61,12 +67,12 @@ troupe:
   url: "#test-link"
   btn_class: btn--primary
   alt: Rachid
-- image_path: assets/img/people/marion.jpg
-  title: Marion
-  excerpt: Française mais avec l'ame cubaine... Marion
+- image_path: assets/img/people/tanguy.jpg
+  alt: Tanguy
+  title: Tanguy
+  excerpt: 'Ohh boy.. you need a tanGuy in your life! '
   url: "#test-link"
   btn_class: btn--primary
-  alt: Marion
 - image_path: assets/img/people/laure.jpg
   alt: Laure
   title: Laure
@@ -79,12 +85,6 @@ troupe:
   url: "#test-link"
   btn_class: btn--primary
   alt: Benjamin
-- image_path: assets/img/people/jb.jpg
-  alt: JB
-  title: JB
-  excerpt: Belgian accent is JB!!
-  url: "#test-link"
-  btn_class: btn--primary
 guests:
 - image_path: assets/img/people/guests/erwan.jpg
   title: Rewan
