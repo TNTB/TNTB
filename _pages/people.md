@@ -7,6 +7,12 @@ header:
   overlay_filter: "0.3"
 troupe:
 - image_path: ''
+  alt: Fabbio
+  title: Fabbio
+  excerpt: ''
+  url: ''
+  btn_class: ''
+- image_path: ''
   alt: Delphine
   title: Delphine
   excerpt: ''
