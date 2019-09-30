@@ -32,7 +32,7 @@ troupe:
   btn_class: btn--primary
 - image_path: assets/img/people/jerome.jpg
   alt: Jerome
-  title: 'Je! '
+  title: Jérôme
   excerpt: 'You need just one word to explain why a impro scene was wonderful....C''est
     Jerome!! '
   url: "#test-link"
