@@ -1,6 +1,6 @@
 ---
 title: IMPULSIONS ARTISTIQUES
-date: 2019-01-12 19:44:57 +0000
+date: 2019-01-12T19:44:57.000+00:00
 header:
   overlay_image: "/uploads/2019/01/14/Impulsion ban-1.jpg"
   overlay_filter: 0.3
@@ -16,6 +16,6 @@ Passer de Picasso à Modigliani en croisant David Cronemberg : plus qu'un pas, c
 
 **I**MPULSION ARTISTIQUE est un concept participatif où le public va pouvoir décider de chaque début d'improvisation grâce à des amorces sous forme de tableaux, photographies, sculptures et parfois même de films.
 
-Énergisant à souhait, ce spectacle ne se donne qu'une seule limite, celle que vous voudrez lui donner. 
+Énergisant à souhait, ce spectacle ne se donne qu'une seule limite, celle que vous voudrez lui donner.
 
-Alors allez-y, inspirez nous.... on expirera! 
+Alors allez-y, inspirez nous.... on expirera!
