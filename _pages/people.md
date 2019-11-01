@@ -49,7 +49,7 @@ troupe:
   excerpt: ''
   url: ''
   btn_class: ''
-- image_path: ''
+- image_path: "/uploads/2019/11/01/FABBIO BIG.jpg"
   alt: Fabbio
   title: Fabbio
   excerpt: ''
